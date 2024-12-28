@@ -1,0 +1,14 @@
+{
+    "$schema": "https://encore.dev/schemas/infra.schema.json",
+    "sql_servers": [
+       {
+          "host": "my-db-host:5432",
+          "databases": {
+               "foo": {
+                 "username": "database",
+                 "password": "password"
+            }
+         }
+      }
+   ]
+}
